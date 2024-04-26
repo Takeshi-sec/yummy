@@ -1,0 +1,25 @@
+.mv-wrapper {
+  position: relative;
+  aspect-ratio: 1413 / 900;
+  max-width: 1366px;
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  &__ttl {
+    font-size: 10vw;
+    color: #fff;
+    &--txt1 {
+      position: absolute;
+      top: 0;
+      right: -8svw;
+      margin: auto;
+      writing-mode: vertical-lr;
+    }
+    &--txt2 {
+      position: absolute;
+      bottom: -6svw;
+      left: -2svw;
+      margin: auto;
+    }
+  }
+}
